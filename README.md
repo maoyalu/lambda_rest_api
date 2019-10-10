@@ -43,8 +43,8 @@
 
    ```yml
    functions:
-   	app:
-   		handler: app.server
+      app:
+         handler: app.server
            events:
                - http:
                    path: /
